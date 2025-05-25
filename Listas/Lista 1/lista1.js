@@ -1,12 +1,14 @@
 import PromptSync from "prompt-sync";
-const prompt = PromptSync({ sigint: true });
+const prompt = PromptSync();
 
 import exercise01 from "../Lista 1/ex01.js";
 import exercise02 from "../Lista 1/ex02.js";
+import exercise03 from "../Lista 1/ex03.js";
 
 const exercises = [
   { name: "Exercício 1: Par ou Ímpar", execute: exercise01 },
-  { name: "Exercício 2: Classificador de Faixa Etária", execute: exercise02},                                             
+  { name: "Exercício 2: Classificador de Faixa Etária", execute: exercise02}, 
+  { name: "Exercício 3: Classificador de Faixa Etária", execute: exercise03 },                                            
 ];
 
 export default async function list1Menu() {
