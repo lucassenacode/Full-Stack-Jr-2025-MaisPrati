@@ -1,5 +1,5 @@
 import PromptSync from "prompt-sync";
-const prompt = PromptSync();
+const prompt = PromptSync({ sigint: true });
 
 const statements = () => {
   console.log("\n--- Verificador de Número Par ou Ímpar ---"); 
