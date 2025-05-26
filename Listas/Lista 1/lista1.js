@@ -6,13 +6,21 @@ import exercise02 from "../Lista 1/ex02.js";
 import exercise03 from "../Lista 1/ex03.js";
 import exercise04 from "../Lista 1/ex04.js";
 import exercise05 from "../Lista 1/ex05.js";
+import exercise06 from "../Lista 1/ex06.js";
+import exercise07 from "../Lista 1/ex07.js";
+import exercise08 from "../Lista 1/ex08.js";
+
+
 
 const exercises = [
   { name: "Exercício 1: Par ou Ímpar", execute: exercise01 },
   { name: "Exercício 2: Classificador de Faixa Etária", execute: exercise02}, 
   { name: "Exercício 3: Classificador de Notas Escolares", execute: exercise03 },
   { name: "Exercício 4: Menu Interativo Estilo Video Game", execute: exercise04 }, 
-  { name: "Exercício 5: Calculadora de IMC", execute: exercise05 }                                           
+  { name: "Exercício 5: Calculadora de IMC", execute: exercise05 },
+  { name: "Exercício 6: Analisador de Triânguloso", execute: exercise06 },
+  { name: "Exercício 7: Calculadora de Custo de Maçãs", execute: exercise07 },
+  { name: "Exercício 8: Ordenador de Dois Números", execute: exercise08 }
 ];
 
 export default async function list1Menu() {
