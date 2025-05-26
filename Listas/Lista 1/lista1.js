@@ -9,6 +9,9 @@ import exercise05 from "../Lista 1/ex05.js";
 import exercise06 from "../Lista 1/ex06.js";
 import exercise07 from "../Lista 1/ex07.js";
 import exercise08 from "../Lista 1/ex08.js";
+import exercise09 from "../Lista 1/ex09.js";
+import exercise10 from "../Lista 1/ex10.js";
+import exercise11 from "../Lista 1/ex11.js";
 
 
 
@@ -20,7 +23,10 @@ const exercises = [
   { name: "Exercício 5: Calculadora de IMC", execute: exercise05 },
   { name: "Exercício 6: Analisador de Triânguloso", execute: exercise06 },
   { name: "Exercício 7: Calculadora de Custo de Maçãs", execute: exercise07 },
-  { name: "Exercício 8: Ordenador de Dois Números", execute: exercise08 }
+  { name: "Exercício 8: Ordenador de Dois Números", execute: exercise08 }, 
+  { name: "Exercício 9: Contagem Regressiva", execute: exercise09 },
+  { name: "Exercício 10: Repetidor de Número", execute: exercise10 },
+  { name: "Exercício 11: Somar de Cinco Números", execute: exercise11 }
 ];
 
 export default async function list1Menu() {
