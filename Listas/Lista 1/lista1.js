@@ -12,22 +12,30 @@ import exercise08 from "../Lista 1/ex08.js";
 import exercise09 from "../Lista 1/ex09.js";
 import exercise10 from "../Lista 1/ex10.js";
 import exercise11 from "../Lista 1/ex11.js";
+import exercise12 from "../Lista 1/ex12.js";
+import exercise13 from "../Lista 1/ex13.js";
+import exercise14 from "../Lista 1/ex14.js";
+import exercise15 from "../Lista 1/ex15.js";
 
 
 
 const exercises = [
-  { name: "Exercício 1: Par ou Ímpar", execute: exercise01 },
-  { name: "Exercício 2: Classificador de Faixa Etária", execute: exercise02}, 
-  { name: "Exercício 3: Classificador de Notas Escolares", execute: exercise03 },
-  { name: "Exercício 4: Menu Interativo Estilo Video Game", execute: exercise04 }, 
-  { name: "Exercício 5: Calculadora de IMC", execute: exercise05 },
-  { name: "Exercício 6: Analisador de Triânguloso", execute: exercise06 },
-  { name: "Exercício 7: Calculadora de Custo de Maçãs", execute: exercise07 },
-  { name: "Exercício 8: Ordenador de Dois Números", execute: exercise08 }, 
-  { name: "Exercício 9: Contagem Regressiva", execute: exercise09 },
+  { name: "Exercício 01: Par ou Ímpar", execute: exercise01 },
+  { name: "Exercício 02: Classificador de Faixa Etária", execute: exercise02}, 
+  { name: "Exercício 03: Classificador de Notas Escolares", execute: exercise03 },
+  { name: "Exercício 04: Menu Interativo Estilo Video Game", execute: exercise04 }, 
+  { name: "Exercício 05: Calculadora de IMC", execute: exercise05 },
+  { name: "Exercício 06: Analisador de Triânguloso", execute: exercise06 },
+  { name: "Exercício 07: Calculadora de Custo de Maçãs", execute: exercise07 },
+  { name: "Exercício 08: Ordenador de Dois Números", execute: exercise08 }, 
+  { name: "Exercício 09: Contagem Regressiva", execute: exercise09 },
   { name: "Exercício 10: Repetidor de Número", execute: exercise10 },
-  { name: "Exercício 11: Somar de Cinco Números", execute: exercise11 }
-];
+  { name: "Exercício 11: Somar de Cinco Números", execute: exercise11 },
+  { name: "Exercício 12: Gerador de Tabuada", execute: exercise12 },
+  { name: "Exercício 13: Calculadora de Média", execute: exercise13 },
+  { name: "Exercício 14: Calculadora de Fatorial", execute: exercise14 },
+  { name: "Exercício 15: Sequência de Fibonacci", execute: exercise15 } 
+]
 
 export default async function list1Menu() {
   let isListMenuRunning = true;
