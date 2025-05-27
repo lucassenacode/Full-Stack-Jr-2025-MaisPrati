@@ -1,21 +1,22 @@
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
-import exercise01 from "../Lista 1/ex01.js";
-import exercise02 from "../Lista 1/ex02.js";
-import exercise03 from "../Lista 1/ex03.js";
-import exercise04 from "../Lista 1/ex04.js";
-import exercise05 from "../Lista 1/ex05.js";
-import exercise06 from "../Lista 1/ex06.js";
-import exercise07 from "../Lista 1/ex07.js";
-import exercise08 from "../Lista 1/ex08.js";
-import exercise09 from "../Lista 1/ex09.js";
-import exercise10 from "../Lista 1/ex10.js";
-import exercise11 from "../Lista 1/ex11.js";
-import exercise12 from "../Lista 1/ex12.js";
-import exercise13 from "../Lista 1/ex13.js";
-import exercise14 from "../Lista 1/ex14.js";
-import exercise15 from "../Lista 1/ex15.js";
+import exercise01 from "./ex01.js";
+import exercise02 from "./ex02.js";
+import exercise03 from "./ex03.js";
+import exercise04 from "./ex04.js";
+import exercise05 from "./ex05.js";
+import exercise06 from "./ex06.js";
+import exercise07 from "./ex07.js";
+import exercise08 from "./ex08.js";
+import exercise09 from "./ex09.js";
+import exercise10 from "./ex10.js";
+import exercise11 from "./ex11.js";
+import exercise12 from "./ex12.js";
+import exercise13 from "./ex13.js";
+import exercise14 from "./ex14.js";
+import exercise15 from "./ex15.js";
+
 
 
 

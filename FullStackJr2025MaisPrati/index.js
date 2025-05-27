@@ -2,8 +2,9 @@ import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
 const listConfigurations = [
-  { name: "Lista de Exercícios 1", path: "./Listas/Lista 1/lista1.js" },
+  { name: "Lista de Exercícios 1", path: "./Listas/Lista1/lista1.js" },
 ];
+
 
 async function mainMenu() {
   let isMainMenuRunning = true;
