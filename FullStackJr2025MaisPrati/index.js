@@ -3,6 +3,7 @@ const prompt = PromptSync();
 
 const listConfigurations = [
   { name: "Lista de Exercícios 1", path: "./Listas/Lista1/lista1.js" },
+  {name: "Lista de Exercícios 2", path: "./Listas/Lista2/lista2.js" },
 ];
 
 
